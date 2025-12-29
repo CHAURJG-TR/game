@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: #111;
+  color: #fff;
+  font-family: "Microsoft JhengHei", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 2rem 0;
+}
+
+#display {
+  margin: 3rem auto;
+  width: 90%;
+  min-height: 200px;
+  font-size: 5rem;
+  padding: 3rem;
+  border-radius: 25px;
+  background: #4caf50;
+  color: #000;
+  animation: pop 0.6s ease;
+}
+
+@keyframes pop {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.controls button {
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1.5rem 2.5rem;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
